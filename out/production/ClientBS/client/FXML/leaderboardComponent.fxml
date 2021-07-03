@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="67.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Controllers.LeaderboardComponent">
+   <children>
+      <Label fx:id="name" layoutX="21.0" layoutY="12.0" prefHeight="42.0" prefWidth="344.0" text=" Ali : 1400">
+         <font>
+            <Font name="Berlin Sans FB" size="37.0" />
+         </font>
+      </Label>
+      <Circle fx:id="online" fill="#00ff51" layoutX="436.0" layoutY="34.0" radius="13.0" stroke="WHITE" strokeType="INSIDE" />
+      <Circle fx:id="offline" fill="#ff0700" layoutX="436.0" layoutY="34.0" radius="13.0" stroke="WHITE" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
